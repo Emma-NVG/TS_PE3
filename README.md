@@ -37,3 +37,6 @@ urls.py
 
 ---
 ## Example 4: Please try to test Django's different response types, including HttpResponse class and subclasses (10 in total), JsonResponse class, StreamingHttpResponse, and FileResponse class. Please show those response files, JSON, or video on your screenshot. 
+
+![Capture d’écran 2024-01-21 à 22 35 44](https://github.com/Emma-NVG/TS_PE3/assets/51115377/948183bf-6b29-4ffd-9fe1-8d7ce50bbb2c)
+<img width="659" alt="Capture d’écran 2024-01-21 à 22 35 58" src="https://github.com/Emma-NVG/TS_PE3/assets/51115377/5fb58d97-875f-4e37-8df7-646bd60a3370">
