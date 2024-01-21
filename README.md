@@ -23,6 +23,17 @@ hello.html
 
 ---
 ## Example 3: Cloud message board. Basic function definition: 1, Submit message function: Users can set their own name as A, specify any name B and leave a message to B, record it as msg, and the message will be saved in the cloud. 2, Get message function: input name A, and the cloud will return the 20 latest message records.
+![Capture d’écran 2024-01-21 à 20 32 50](https://github.com/Emma-NVG/TS_PE3/assets/51115377/ff30ad3a-a8d4-4890-bca5-1dbdf18b5de0)
+![Capture d’écran 2024-01-21 à 22 25 12](https://github.com/Emma-NVG/TS_PE3/assets/51115377/d7f8bb1a-237d-4fb5-8eb8-fb608c95bfc7)
+
+views.py
+<img width="945" alt="Capture d’écran 2024-01-21 à 22 25 40" src="https://github.com/Emma-NVG/TS_PE3/assets/51115377/197b5ce8-9225-4df0-9be6-b979a6d90df4">
+
+model.py
+<img width="674" alt="Capture d’écran 2024-01-21 à 22 26 12" src="https://github.com/Emma-NVG/TS_PE3/assets/51115377/8ba5e662-708f-4ab1-965c-115da295f389">
+
+urls.py
+<img width="577" alt="Capture d’écran 2024-01-21 à 22 26 40" src="https://github.com/Emma-NVG/TS_PE3/assets/51115377/ddaddf95-da25-4dff-a916-59410b34c7aa">
 
 ---
 ## Example 4: Please try to test Django's different response types, including HttpResponse class and subclasses (10 in total), JsonResponse class, StreamingHttpResponse, and FileResponse class. Please show those response files, JSON, or video on your screenshot. 
