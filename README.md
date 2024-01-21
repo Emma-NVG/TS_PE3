@@ -15,10 +15,11 @@ views.py
 <img width="580" alt="Capture d’écran 2024-01-21 à 20 13 36" src="https://github.com/Emma-NVG/TS_PE3/assets/51115377/0b0ca825-6d42-4ddc-b839-345a7ed592d7">
 
 models.py
-![Uploading Capture d’écran 2024-01-21 à 20.15.50.png…]()
+<img width="342" alt="Capture d’écran 2024-01-21 à 20 17 14" src="https://github.com/Emma-NVG/TS_PE3/assets/51115377/ffd9e6ce-ae74-454c-855d-2e0b8966f841">
 
 hello.html
-![Uploading Capture d’écran 2024-01-21 à 20.16.06.png…]()
+<img width="599" alt="Capture d’écran 2024-01-21 à 20 17 37" src="https://github.com/Emma-NVG/TS_PE3/assets/51115377/4204fe19-78c2-4a0f-bfb3-734d6556dda6">
+
 
 ---
 ## Example 3: Cloud message board. Basic function definition: 1, Submit message function: Users can set their own name as A, specify any name B and leave a message to B, record it as msg, and the message will be saved in the cloud. 2, Get message function: input name A, and the cloud will return the 20 latest message records.
