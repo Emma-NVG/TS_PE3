@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Get Messages</title>
+</head>
+<body>
+    <h2>Messages</h2>
+    <!-- firstapp/templates/get_messages.html -->
+    <form method="post" action="{% url 'get_messages' %}">
+        {% csrf_token %}
+        <label for="sender_name">Your Name (A):</label>
+        <input type="text" name="sender_name" required>
+        <input type="submit" value="Get Messages">
+    </form>
+
+
+    <h3>Latest 20 Messages:</h3>
+    <ul>
+        {% for message in messages %}
+            <li>{{ message.sender_name }} to {{ message.receiver_name }}: {{ message.message_content }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!-- firstapp/templates/submit_message.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Submit Message</title>
+</head>
+<body>
+    <h2>Submit a Message</h2>
+    <form method="post" action="{% url 'submit_message' %}">
+        {% csrf_token %}
+        <label for="sender_name">Your Name (A):</label>
+        <input type="text" name="sender_name" required><br>
+
+        <label for="receiver_name">Recipient Name (B):</label>
+        <input type="text" name="receiver_name" required><br>
+
+        <label for="message_content">Message:</label>
+        <textarea name="message_content" required></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
